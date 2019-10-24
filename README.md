@@ -42,7 +42,7 @@ So I came into this code https://github.com/npocmaka/batch.scripts/blob/master/h
 
 <img src="https://github.com/pabloi09/issueWSL/blob/master/showing.gif?raw=true"/>
 
-Now create a direct access to this exe and set it a beautiful icon and you will have access to your script with a click!
+Now create a direct access to this exe and set it a beautiful icon. You will have access to your script with a click!
 
 <img src="https://github.com/pabloi09/issueWSL/blob/master/demo2.png?raw=true"/>
 
