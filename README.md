@@ -40,11 +40,11 @@ It will ask you your password and... you will be done! You recover your internet
 # Pro tip: Make it an exe file so you just neet to open it like a program 
 So I came into this code https://github.com/npocmaka/batch.scripts/blob/master/hybrids/iexpress/bat2exeIEXP.bat by npocmaka. This script allows you to drag a .bat file and drop it into this other .bat file. The script will automatically convert it into a .exe file.
 
-![demonstration][https://i.stack.imgur.com/qaYpg.gif]
+<img src="https://github.com/pabloi09/issueWSL/blob/master/showing.gif?raw=true"/>
 
 Now create a direct access to this exe and set it a beautiful icon and you will have access to your script with a click!
 
-
+<img src="https://github.com/pabloi09/issueWSL/blob/master/demo2.png?raw=true"/>
 
 
 
