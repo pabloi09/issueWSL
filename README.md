@@ -19,7 +19,7 @@ I only get connection back with a reboot. I you are having a similar issue, this
 After a lot of time lost, I discovered that if I killed the tasks associated with my development context I solved the problem. I haven't digged more into it, but it could be only one of this tasks or it could be the use of them together. My hypothesis is that for some reason these programs overcharge the network card and the web browser can't access it (all the ports get locked)
 
 # The solution
-I will call it more a reduction of the impact of the issue that a solution. We can just kill the tasks with the task administrator program. But that's slow... It is probably faster to reboot the computer. 
+I would call it more a reduction of the impact of the issue that a solution. We can just kill the tasks with the task administrator program. But that's slow... It is probably faster to reboot the computer. 
 
 But luckily, we are programmers! So let's automatize the task as much as possible. First we could create a .bat script that kill all of these tasks
 
@@ -40,6 +40,8 @@ runas /profile /user:<your user> "<the path of the .bat>"
 ```
 
 It will ask you your password and... you will be done! You recover your internet connection. Of course, I am sure there are more elegant an efficient solutions: do a while loop with all the tasks you want to kill(less code), automatically detecting the lost of the internet and executing the script in consequence...but this works for me
+
+If we just create a .bat file with this second command we will be able to double click it and write our user password and we will have all the work done 
 
 # Pro tip: Make it an exe file so you just neet to open it like a program 
 So I came into this code https://github.com/npocmaka/batch.scripts/blob/master/hybrids/iexpress/bat2exeIEXP.bat by npocmaka. This script allows you to drag a .bat file and drop it into this other .bat file. It will automatically convert it into a .exe file.
