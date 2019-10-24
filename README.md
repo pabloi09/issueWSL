@@ -9,7 +9,9 @@ I have been struggling with a proxy network problem for a long time now that has
 
 -Google Chrome
 
-After some time coding I lose internet connection with error codes as ERR_CONNECTION_REFUSED and similar. I only get connection back with a reboot. I you are having a similar issue, this is (probably) the post you were looking for.
+After some time coding I lose internet connection with error codes as ERR_CONNECTION_REFUSED and similar. The Windows' issues solver display thhis message:
+<img src="https://github.com/pabloi09/issueWSL/blob/master/message.jpg?raw=true"/>
+I only get connection back with a reboot. I you are having a similar issue, this is (probably) the post you were looking for.
 
 # The cause
 After a lot of time lost, I discovered that if I killed the tasks associated with my development context I solved the problem. I haven't digged more into it, but it could be only one of this tasks or it could be the use of them together. My hypothesis is that for some reason these programs overcharge the network card and the web browser can't access it (all the ports get locked)
