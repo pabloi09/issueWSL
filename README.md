@@ -38,7 +38,7 @@ runas /profile /user:<your user> "<the path of the .bat>"
 It will ask you your password and... you will be done! You recover your internet connection. Of course, I am sure there are more elegant an efficient solutions: do a while loop with all the tasks you want to kill(less code), automatically detecting the lost of the internet and executing the script in consequence...but this works for me
 
 # Pro tip: Make it an exe file so you just neet to open it like a program 
-So I came into this code https://github.com/npocmaka/batch.scripts/blob/master/hybrids/iexpress/bat2exeIEXP.bat by npocmaka. This script allows you to drag a .bat file and drop it into this other .bat file. The script will automatically convert it into a .exe file.
+So I came into this code https://github.com/npocmaka/batch.scripts/blob/master/hybrids/iexpress/bat2exeIEXP.bat by npocmaka. This script allows you to drag a .bat file and drop it into this other .bat file. It will automatically convert it into a .exe file.
 
 <img src="https://github.com/pabloi09/issueWSL/blob/master/showing.gif?raw=true"/>
 
