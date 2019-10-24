@@ -9,7 +9,7 @@ I have been struggling with a proxy network problem for a long time now that has
 
 -Google Chrome
 
-After some time coding I lose internet connection with error codes as ERR_CONNECTION_REFUSED and similar. The Windows' troubleshooting display the message: "Windows could not automatically detect this network's proxy settings"
+After some time coding I lose internet connection with error codes as ERR_CONNECTION_FAILED . The Windows' troubleshooting displays the message: "Windows could not automatically detect this network's proxy settings"
 
 <img src="https://github.com/pabloi09/issueWSL/blob/master/message.jpg?raw=true"/>
 
